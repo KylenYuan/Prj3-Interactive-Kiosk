@@ -12,7 +12,7 @@ html {
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: ##F8F8F8;
     text-shadow: none;
 }
 
@@ -57,15 +57,15 @@ textarea {
    ========================================================================== */
 
 body {
-  background-color: gray;
+  background-color: #F8F8F8;
   font-size: 32px;
 }
 
 .start-section {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#350816+0,40091a+100 */
-  background: #350816; /* Old browsers */
-  background: -webkit-linear-gradient(top, #350816 0%,#40091a 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #350816 0%,#40091a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: #F8F8F8; /* Old browsers */
+  background: -webkit-linear-gradient(top, #F8F8F8 0%,#40091a 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #F8F8F8 0%,#40091a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   background-size: cover;
 
   position: absolute;
@@ -159,6 +159,9 @@ body {
   align-content:flex-start;
 }
 
+.roll_images img{
+  padding: 30px;
+}
 
 
 .content-box a {
