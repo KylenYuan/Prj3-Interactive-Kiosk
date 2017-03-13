@@ -105,30 +105,61 @@ body {
   text-decoration: none;
 }
 
-.mainNav li {
-  list-type: none;
-  display: inline-block;
+.mainNav ul li {
+  text-decoration: none;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .mainNav a {
-  background-color: #ccc;
-  color: black;
+  background-color: white;
+  color: #FFB24D;
   text-decoration: none;
   padding: 10px;
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.content-box {
-  background-color: rgba(0,0,0,0.9);
+.welcome{
+  background-color: #F8F8F8;
   position: absolute;
-  top: 50px;
-  right: 30px;
+  top: 30px;
+  right: 250px;
+  bottom: 30px;
+  left: 30px;
+  padding: 30px;
+  color: #FFB24D;
+  overflow: scroll;
+}
+.content-box {
+  background-color: #F8F8F8;
+  position: absolute;
+  top: 30px;
+  right: 250px;
   bottom: 30px;
   left: 30px;
   padding: 30px;
   color: white;
   overflow: scroll;
 }
+
+.nigiri_images{
+  display: flex;
+  flex-wrap: wrap;
+  align-content:flex-start;
+}
+
+.nigiri_images img{
+  padding: 30px;
+}
+
+.roll_images{
+  display: flex;
+  flex-wrap: wrap;
+  align-content:flex-start;
+}
+
+
 
 .content-box a {
   color: #eee;
