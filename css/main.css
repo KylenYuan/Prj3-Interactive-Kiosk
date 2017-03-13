@@ -1,28 +1,10 @@
-/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
-
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
 }
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -34,10 +16,6 @@ html {
     text-shadow: none;
 }
 
-/*
- * A better looking default horizontal rule
- */
-
 hr {
     display: block;
     height: 1px;
@@ -46,12 +24,6 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
 
 audio,
 canvas,
@@ -62,27 +34,15 @@ video {
     vertical-align: middle;
 }
 
-/*
- * Remove default fieldset styles.
- */
-
 fieldset {
     border: 0;
     margin: 0;
     padding: 0;
 }
 
-/*
- * Allow only vertical resizing of textareas.
- */
-
 textarea {
     resize: vertical;
 }
-
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
 
 .browserupgrade {
     margin: 0.2em 0;
@@ -91,10 +51,101 @@ textarea {
     padding: 0.2em 0;
 }
 
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
+body {
+  background-color: gray;
+  font-size: 32px;
+}
+
+.start-section {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#350816+0,40091a+100 */
+  background: #350816; /* Old browsers */
+  background: -webkit-linear-gradient(top, #350816 0%,#40091a 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #350816 0%,#40091a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-size: cover;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  opacity: 1;
+
+  transition: all 1s ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+.test {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.btn {
+  background: none;
+
+  padding: 10px 30px;
+  border: 1px solid white;
+  border-radius: 3px;
+
+  font-size: 72px;
+  color: white;
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.mainNav li {
+  list-type: none;
+  display: inline-block;
+}
+
+.mainNav a {
+  background-color: #ccc;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.content-box {
+  background-color: rgba(0,0,0,0.9);
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  padding: 30px;
+  color: white;
+  overflow: scroll;
+}
+
+.content-box a {
+  color: #eee;
+}
+
+.hide {
+  display: none;
+}
+
+.btn-close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  font-size: 24px
+}
 
 
 
@@ -104,29 +155,29 @@ textarea {
 
 
 
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
 
+@media only screen and (min-width: 35em) {
 
+}
 
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
 
-
-
+}
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
 
-/*
- * Hide visually and from screen readers
- */
-
 .hidden {
     display: none !important;
+    visibility: hidden;
 }
-
-/*
- * Hide only visually, but have it available for screen readers:
- * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- */
 
 .visuallyhidden {
     border: 0;
@@ -139,12 +190,6 @@ textarea {
     width: 1px;
 }
 
-/*
- * Extends the .visuallyhidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
     clip: auto;
@@ -155,68 +200,34 @@ textarea {
     width: auto;
 }
 
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
 .invisible {
     visibility: hidden;
 }
 
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    display: table;
 }
 
 .clearfix:after {
     clear: both;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+.clearfix {
+    *zoom: 1;
 }
 
 /* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   http://www.phpied.com/delay-loading-your-print-css/
+   Print styles
    ========================================================================== */
 
 @media print {
     *,
     *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
+    *:after {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
+        color: #000 !important;
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -234,11 +245,6 @@ textarea {
         content: " (" attr(title) ")";
     }
 
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-
     a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
@@ -249,11 +255,6 @@ textarea {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
-    /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
 
     thead {
         display: table-header-group;
@@ -279,46 +280,4 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
-}
-
-.mainNav li {
-  list-type: none;
-  display: inline-block;
-}
-
-.mainNav a {
-  background-color: white;
-  color: #F4AE53;
-  text-decoration: none;
-  padding: 10px;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-.content-box {
-  background-color: rgba(0,0,0,0.9);
-  position: absolute;
-  top: 50px;
-  right: 30px;
-  bottom: 30px;
-  left: 30px;
-  padding: 30px;
-  color: #F8F8F8;
-  overflow: scroll;
-}
-
-.content-box a {
-  color: #eee;
-}
-
-.hidden {
-  display: none;
-}
-
-.btn-close {
-  position: absolute;
-  top: 5px;
-  right: 10px;
-  font-family: Helvetica, Arial, sans-serif;
-  text-decoration: none;
-  font-size: 24px
 }
