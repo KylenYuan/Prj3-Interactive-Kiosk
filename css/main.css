@@ -131,12 +131,17 @@ body {
   color: #FFB24D;
   overflow: scroll;
   text-align: center;
+
 }
 
 .welcome h1{
   font-size: 20px;
   text-align: center;
 }
+.welcome img{
+  padding-top: 2em;
+}
+
 .content-box {
   background-color: #F8F8F8;
   position: absolute;
@@ -154,20 +159,139 @@ body {
   flex-wrap: wrap;
   align-content:flex-start;
 }
-
-.nigiri_images img{
-  padding: 30px;
+.nigiri_images h1{
+  text-align: center;
+  font-size: 0.5em;
+  color: black;
 }
+
+
+.Salmon {
+  width: 6em;
+  padding: 40px;
+  transition: all 1s ease;
+}
+.Salmon:hover {
+  transform: scale(1.2) rotate(-3deg);
+  -ms-transform: scale(1.2) rotate(-3deg); /* IE 9 */
+  -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
+}
+.Tuna {
+  width: 6em;
+  padding: 40px;
+  transition: all 1s ease;
+}
+.Tuna:hover {
+  transform: scale(1.2) rotate(-3deg);
+  -ms-transform: scale(1.2) rotate(-3deg); /* IE 9 */
+  -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
+}
+
+.Pawn {
+  width: 6em;
+  padding: 40px;
+  transition: all 1s ease;
+}
+.Pawn:hover {
+  transform: scale(1.2) rotate(-3deg);
+  -ms-transform: scale(1.2) rotate(-3deg); /* IE 9 */
+  -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
+}
+
+.Egg {
+  width: 6em;
+  padding: 40px;
+  transition: all 1s ease;
+}
+.Egg:hover {
+  transform: scale(1.2) rotate(-3deg);
+  -ms-transform: scale(1.2) rotate(-3deg); /* IE 9 */
+  -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
+}
+
+
 
 .roll_images{
   display: flex;
   flex-wrap: wrap;
-  align-content:flex-start;
+  align-content:space-between;
+  flex-direction: row;
+  align-content:flex-end;
+}
+.roll_images h1{
+  text-align: center;
+  font-size: 0.5em;
+  color: black;
 }
 
-.roll_images img{
-  padding: 30px;
+.Salmon2 {
+  width: 4em;
+  padding: 60px;
+  transition: all 1s ease;
 }
+.Salmon2:hover {
+  transform: scale(1.2) rotate(-3deg);
+  -ms-transform: scale(1.2) rotate(-3deg); /* IE 9 */
+  -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
+}
+
+.Ikura {
+  width: 3.1em;
+  padding: 70px;
+  transition: all 1s ease;
+}
+.Ikura:hover {
+  transform: scale(1.2) rotate(-3deg);
+  -ms-transform: scale(1.2) rotate(-3deg); /* IE 9 */
+  -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
+}
+
+.BC {
+  width: 5em;
+  padding: 50px;
+  transition: all 1s ease;
+}
+.BC:hover {
+  transform: scale(1.2) rotate(-3deg);
+  -ms-transform: scale(1.2) rotate(-3deg); /* IE 9 */
+  -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
+}
+
+.Mango {
+  width: 5em;
+  padding: 50px;
+  transition: all 1s ease;
+}
+.Mango:hover {
+  transform: scale(1.2) rotate(-3deg);
+  -ms-transform: scale(1.2) rotate(-3deg); /* IE 9 */
+  -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
+}
+
+.Tuna2 {
+  width: 4.5em;
+  padding: 50px;
+  transition: all 1s ease;
+}
+.Tuna2:hover {
+  transform: scale(1.2) rotate(-3deg);
+  -ms-transform: scale(1.2) rotate(-3deg); /* IE 9 */
+  -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
+}
+
+
+.Wild_Salmon {
+  width: 4em;
+  padding: 50px;
+  transition: all 1s ease;
+}
+.Wild_Salmon:hover {
+  transform: scale(1.2) rotate(-3deg);
+  -ms-transform: scale(1.2) rotate(-3deg); /* IE 9 */
+  -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
+}
+
+
 
 
 .content-box a {
