@@ -187,12 +187,12 @@ body {
   -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
 }
 
-.Pawn {
+.Prawn {
   width: 6em;
   padding: 40px;
   transition: all 1s ease;
 }
-.Pawn:hover {
+.Prawn:hover {
   transform: scale(1.2) rotate(-3deg);
   -ms-transform: scale(1.2) rotate(-3deg); /* IE 9 */
   -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
@@ -291,6 +291,52 @@ body {
   -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
 }
 
+.Chocolate {
+  width: 4em;
+  padding: 50px;
+  transition: all 1s ease;
+}
+.Chocolate:hover {
+  transform: scale(1.2) rotate(-3deg);
+  -ms-transform: scale(1.2) rotate(-3deg); /* IE 9 */
+  -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
+}
+
+.Matcha {
+  width: 4em;
+  padding: 50px;
+  transition: all 1s ease;
+}
+.Matcha:hover {
+  transform: scale(1.2) rotate(-3deg);
+  -ms-transform: scale(1.2) rotate(-3deg); /* IE 9 */
+  -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
+}
+
+
+.Redbean {
+  width: 4em;
+  padding: 50px;
+  transition: all 1s ease;
+}
+.Redbean:hover {
+  transform: scale(1.2) rotate(-3deg);
+  -ms-transform: scale(1.2) rotate(-3deg); /* IE 9 */
+  -webkit-transform: scale(1.2) rotate(-3deg); /* Safari and Chrome */
+}
+
+.dessert_images{
+  display: flex;
+  flex-wrap: wrap;
+  align-content:space-between;
+  flex-direction: row;
+  align-content:flex-end;
+}
+.dessert_images h1{
+  text-align: center;
+  font-size: 0.5em;
+  color: black;
+}
 
 
 
