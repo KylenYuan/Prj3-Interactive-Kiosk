@@ -396,8 +396,16 @@ body {
 }
 
 
+.Contact h2 {
+  color: #FFB24D;
+  font-size: 1em;
+}
 
-
+.Contact p {
+  color: black;
+  font-size: 0.5em;
+  line-height: 1.8;
+}
 
 
 
